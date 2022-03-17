@@ -1,0 +1,365 @@
+body{
+    margin: 0;
+    background: #fafafa  
+}
+*{
+    font-family: Roboto, sans-serif;
+}
+
+.header{
+    width: 100%;
+    height: 4rem;
+    background: #fff;
+    border: 1px solid #cdcdd0;
+    display: flex;
+    position: fixed;
+    top: 0;
+    
+
+
+}
+#header-content{
+    
+    width: 80%;
+    padding-left: 10rem;
+    height: 100%;
+    margin: 0 auto;
+}
+#logo{
+    float: left;
+    padding-top: 1.5rem;
+}
+#logoImg{
+    margin-left: 5rem;
+    width: 7rem;
+}
+#search{
+    padding-left: 1rem;
+    float: left;
+    margin-left: 14.5rem;
+    height: 60%;
+    width: 20%;
+    border-radius: .5rem;
+    margin-top: 1rem;
+    display: flex;
+    background-color: #efefef;
+}
+#searchimg{
+    width: 1.5rem;
+    background-color: #efefef;
+    border-radius: 2rem;
+
+}
+#searchbox{
+    border: none;  
+    padding-left: 1rem;
+    height: 100%; 
+    border-radius: .5rem; 
+    width: 80%;
+    background: #efefef;
+    font-size: large;
+    box-sizing: border-box;
+    -webkit-appearance: none;
+}
+#searchbox:focus{
+    outline: none;
+    -webkit-appearance: none;
+}
+#extra-icons{
+    margin-top: .5rem;
+    float: left;
+    margin-left: 5rem;
+}
+.icons{
+    margin: .5rem;
+    width: 1.8rem;
+}
+.content-body{
+    height: 51rem;
+    width: 100%;
+}
+#stories{
+    margin-top: 5rem;
+    height: 8rem;
+    width: 33%;
+    margin-left: 23%;
+    box-sizing: border-box;
+   
+}
+#storiesDiv{
+    border: 1px solid #cdcdd0;
+    background: rgba(var(--d87,255,255,255),1);
+    border-radius: 3px;
+    height: 100%;
+    width: 100%;
+    padding-left: 1rem;
+    box-sizing: border-box;
+    overflow: hidden;
+    display: flex;
+}
+#feed{
+    margin-top: 1.5rem;
+}
+#feedDiv{
+    height: fit-content;
+    background: rgba(var(--d87,255,255,255),1);
+    border:1px solid #cdcdd0;
+    border-radius: 3px;
+    width: 33%;
+    margin-left: 23%;
+    min-height: 500px;
+    box-sizing: content-box;
+    margin-top: 1.5rem;
+}
+#extra-icons button{
+    outline: none;
+    background: transparent;
+    border: none;
+}
+#extra-icons button :hover{
+    cursor: pointer;
+}
+
+#storiesDiv img{
+    width: 4rem;
+    height: 4rem;
+    border-radius: 4rem;
+    border: 2px orangered solid; 
+    padding: 2px;
+    
+}
+#storiesDiv button{
+    margin-top: 3px;        
+    outline: none;
+    border: none;
+    background: transparent;
+    box-sizing: border-box;
+    margin-left: 5px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    text-overflow: "...";
+   
+}
+#storiesDiv figcaption{
+    font-size: smaller;
+}
+#postheader{
+    height:4rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+.createrdetail{
+    box-sizing: border-box;
+    width: 40%;
+    height: 100%;
+    overflow: hidden;
+    display: flex;
+    margin: 0;
+}
+.createrdetail img{
+    width: 3rem;
+    height: 3rem;
+    border-radius: 3rem;
+    margin: 5px;
+    float: left; 
+    margin: auto 0;
+    border: 2px solid orangered;
+    border-radius: 3rem;
+    padding: 2px;
+}
+.createrdetail button{
+   float:left;
+   margin: auto 0;
+   margin-left: 1rem;
+   outline: none  ;
+   border: none;
+   background: transparent;
+   padding: 0;
+   
+}
+#moreoptions{
+    float: right;
+    box-sizing: border-box;
+}
+#moreoptions button{
+    outline: none;
+    border: none;
+    background: transparent;
+    margin-top:  1rem  ;
+}
+#moreoptions img{
+    width: 1.5rem;
+    margin: auto 0;
+}
+.post{
+    width: 100%;
+    height: 80%;
+}
+.postcontent{
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+}
+.posticons{
+    width: 1.8rem;
+}
+#postreaction{
+    width: 100%;
+    display: flex;
+}
+#postreaction button{
+    margin-top: 1rem;
+    margin-left: 1rem;
+    background: transparent;
+    border: none   ;
+    float: left;
+}
+
+#postreaction button :hover{
+    cursor: pointer;
+}
+#saveicon{
+    margin: auto;
+    margin-right: 2rem;
+    width: 1.8rem;
+}
+#saveiconImg{
+    width: 1.8rem;
+}
+.storyBtn :hover{
+    cursor: pointer;
+}
+
+.createrdetail button :hover{
+    cursor: pointer;
+}
+#moreoptions :hover{
+    cursor: pointer;
+}
+#stryarrow{
+    position: absolute; right: 53rem;top: 8.8rem; color: white;
+}
+#stryarrow :hover{
+    cursor: pointer;
+}
+#commentInput{
+    color: black;
+    border: none;
+    outline: unset ;
+    width:99% ;
+    height: 99%;
+    box-sizing: content-box;
+}
+
+#commentDiv{
+    border-top: 1px solid #cdcdd0;
+    border-bottom: 1px solid #cdcdd0;
+    width: 99%;
+    height: 3rem;
+    padding-left: 5px;
+    display: flex;
+    justify-content: center;
+}
+.profile-section{
+    width: 20%;
+    background:#fafafa;
+    height: 25rem;
+    position: fixed;
+    right: 27rem;
+    top: 5rem;
+}
+.profile{
+    margin-top: 1rem;
+    height: 4rem;
+    width: 100%;
+}
+.profile img{
+    width: 3rem;
+    border-radius: 5rem;
+    border: 1px solid #efefef;
+}
+.profile span{
+    font-weight: bold;
+    
+}
+.profile figcaption{
+    font-weight: lighter;
+    color: #8e8e8e;
+    font-size: 13px;
+    margin-top: 1px;
+
+}
+.profile td:first-child{
+    max-width: 1.5rem;
+}
+.profile a{
+    text-decoration: none;
+    color: #0095f6;
+    font-weight: bold;
+    line-height: 1px;
+}
+.sug-table{
+    width: 100%;
+    margin-top: 1rem;
+
+}
+.sug-table span{
+    color: #8e8e8e;
+    font-weight: bold;
+}
+.sug-table td{
+    max-width: 1.5 rem;
+
+}
+.sug-table img{
+    width: 2.5rem;
+    border-radius: 5rem;
+    border: 1px solid #efefef;
+}
+.sug-table a{
+    text-decoration: none;
+    color: #0095f6;
+    font-weight: bold;
+    line-height: 1px;
+    font-size: 12px;
+
+}
+.suggestion-row td:first-child{
+   width: .5rem;
+}
+.suggestion-row span{
+    color: black;
+}
+.suggestion-row figcaption{
+    font-weight: lighter;
+    color: #8e8e8e;
+    font-size: 13px;
+    margin-top: 1px;
+
+}
+footer{
+    width: 100%;
+    
+}
+footer ul{
+    margin-top: 1.5rem;
+  display: flex;
+  font-size: 11px;
+  list-style: none;
+  
+}
+footer a{
+    color: #8e8e8e;
+    text-decoration: none;
+}
+footer li{
+    margin-right: .5rem;
+   padding-left: 0px;
+  
+}
+footer nav{
+    width: 100%;
+display: block;
+}
